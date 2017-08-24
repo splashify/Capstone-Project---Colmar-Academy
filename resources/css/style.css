@@ -36,11 +36,13 @@ nav a{
   padding: 8px 16px;
 }
 
-/* Main content */
+/* General Content */
 
 .container{
   padding: 32px 24px;
 }
+
+/* First Banner Content */
 
 .first-banner{
     background-color: #e3f2fd;
@@ -95,13 +97,8 @@ h5 {
   text-decoration: none;
 }
 
-.second-banner{
+.second{
   display: flex;
   align-items: center;
-  background-color: #D4E6F1;
-  flex-direction: column;
-}
-.main-banner-2{
-  display: flex;
-  align-items: center;
+  background-color: #D6EAF8;
 }
