@@ -102,3 +102,11 @@ h5 {
   align-items: center;
   background-color: #D6EAF8;
 }
+
+.left-container{
+  width: 100%;
+}
+
+.right{
+ width: :40%;
+}
