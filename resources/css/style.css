@@ -99,14 +99,51 @@ h5 {
 
 .second{
   display: flex;
-  align-items: center;
   background-color: #D6EAF8;
 }
 
-.left-container{
-  width: 100%;
+.left{
+  width: 60%;
 }
 
+.image-guy{
+  width: 100%;
+  display: block;
+}
+
+.second h2 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+.hiring{
+  padding-top: 32px;
+}
+
+/*Second Banner - Right Column*/
 .right{
- width: :40%;
+  width: 40%;
+  padding-top: 32px;
+  padding-left: 16px;
+}
+
+.row {
+display: flex;
+align-items: center;
+
+}
+
+.image-box{
+  height: auto;
+
+}
+
+.right-img{
+padding-left: 16px;
+padding-bottom: 16px;
+height: auto;
+width: 60%;
+}
+
+.rowtext p{
+padding: 8px 0;
 }
