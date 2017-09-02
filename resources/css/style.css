@@ -42,11 +42,19 @@ nav a{
 }
 
 nav a:last-child {
-  color: black;
+  color: inherit;
   border-radius: 15px;
   background-color: #5499C7;
   text-decoration: none;
   padding: 8px 16px;
+}
+
+nav a:hover{
+  color: white;
+  background-color: #2C3E50;
+  transition-property: background-color color;
+  transition-duration: 300ms;
+  transition-delay: ease-out;
 }
 
 /* General Content */
@@ -58,8 +66,8 @@ nav a:last-child {
 /* First Banner Content */
 
 .first-banner{
-    background-color: #e3f2fd;
-    padding-bottom: 32px;
+  background-color: #e3f2fd;
+  padding-bottom: 32px;
 }
 
 .main-banner{
@@ -69,8 +77,8 @@ nav a:last-child {
 }
 
 .main-image{
-display: block;
-width: 60%;
+  display: block;
+  width: 60%;
 }
 
 .content{
@@ -144,13 +152,22 @@ h5 {
 }
 
 .row {
-display: flex;
-align-items: center;
-padding: 16px 0 16px 0;
-background: #F2F4F4;
-border-bottom: 1px solid black;
-border-left: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding: 16px 0 16px 0;
+  background: #F2F4F4;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
+
+.row:hover {
+  color: white;
+  background-color: #707B7C;
+  transition-property: background-color color;
+  transition-duration: 300ms;
+  transition-delay: ease-out;
+}
+
 
 .row:last-child{
   background-color: #CCD1D1;
@@ -168,14 +185,14 @@ border-left: 1px solid black;
 }
 
 .right-img{
-padding-left: 16px;
+  padding-left: 16px;
 
-height: auto;
-width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .rowtext p{
-padding: 8px 0;
+  padding: 8px 0;
 }
 
 .rowtext a{
@@ -288,5 +305,5 @@ footer{
 .link-footer{
   padding-left: 16px;
   text-decoration: none;
-color: inherit;
+  color: inherit;
 }
